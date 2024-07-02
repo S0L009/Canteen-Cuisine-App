@@ -1,7 +1,7 @@
-# Canteen Food Finder
+# Canteen Cuisine App
 
 ### Overview:
-Assists those seeking food options in the canteen.
+The "Canteen Cuisine App" addresses the challenges faced by students and faculty in the college canteens. It provides real-time updates on available dishes, ensuring users are always aware of the current menu. With reviews and ratings, users can make informed decisions about their food choices, enhancing their overall dining experience.
 
 ### Features:
 - **Menu Exploration:** Users can browse through the available food items or menu options offered by the canteen.
