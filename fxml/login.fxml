@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0" prefWidth="863.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxplswork.Mainpagecontroller">
+   <children>
+      <ImageView fitHeight="496.0" fitWidth="864.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@3d.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="loginun" layoutX="241.0" layoutY="74.0" prefHeight="336.0" prefWidth="380.0" style="-fx-background-color: rgb(52, 52, 52);">
+         <children>
+            <Label alignment="CENTER" layoutX="98.0" layoutY="35.0" prefHeight="81.0" prefWidth="182.0" style="-fx-text-fill: rgb(127, 254, 0);" text="Login">
+               <font>
+                  <Font name="Century Gothic" size="49.0" />
+               </font>
+               <effect>
+                  <Glow level="0.54" />
+               </effect>
+            </Label>
+            <TextField fx:id="username" layoutX="71.0" layoutY="139.0" prefHeight="30.0" prefWidth="238.0" promptText="Username" style="-fx-background-color: grey;" />
+            <TextField fx:id="password" layoutX="70.0" layoutY="199.0" prefHeight="30.0" prefWidth="238.0" promptText="Password" style="-fx-background-color: grey;" />
+            <Button layoutX="155.0" layoutY="265.0" mnemonicParsing="false" onAction="#logintomain" prefHeight="28.0" prefWidth="70.0" style="-fx-background-color: black; -fx-text-fill: rgb(127, 254, 0);" text="Enter">
+               <font>
+                  <Font name="Century Gothic" size="16.0" />
+               </font>
+               <effect>
+                  <Glow level="0.84" />
+               </effect></Button>
+         </children>
+         <effect>
+            <DropShadow height="72.46" radius="41.58" width="95.86">
+               <color>
+                  <Color red="0.6333333253860474" green="1.0" blue="0.2666666805744171" />
+               </color>
+            </DropShadow>
+         </effect>
+      </AnchorPane>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goto_stf_r_custom" prefHeight="38.0" prefWidth="34.0" style="-fx-background-color: rgb(127, 254, 0);" textFill="#1aff00">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@back-button.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <DropShadow height="58.43" radius="29.884999999999998" width="63.11">
+               <color>
+                  <Color red="0.49803921580314636" green="0.9960784316062927" />
+               </color>
+               <input>
+                  <InnerShadow height="0.0" radius="7.675000000000001" width="32.7">
+                     <color>
+                        <Color red="0.4355717897415161" green="0.6842105388641357" blue="0.16978557407855988" />
+                     </color>
+                  </InnerShadow>
+               </input>
+            </DropShadow>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

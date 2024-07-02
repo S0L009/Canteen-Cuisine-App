@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="del_ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#del_staff_acc1" prefHeight="557.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxplswork.mpgcrtlr4">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="261.0" layoutY="20.0" prefHeight="86.0" prefWidth="278.0" text="Accounts" textFill="WHITE">
+         <font>
+            <Font name="Microsoft JhengHei Light" size="53.0" />
+         </font>
+      </Label>
+      <Button layoutX="24.0" layoutY="22.0" mnemonicParsing="false" onAction="#backtoadmin_home" prefHeight="41.0" prefWidth="40.0" style="-fx-background-color: #63E2C6;">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@back-button.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <DropShadow height="49.07" radius="27.545" width="63.11">
+               <color>
+                  <Color red="0.27290448546409607" green="0.2947368323802948" blue="0.2896426320075989" />
+               </color>
+               <input>
+                  <InnerShadow />
+               </input>
+            </DropShadow>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

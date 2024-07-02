@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="del_Rev_ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#display_Rev_del" prefHeight="568.0" prefWidth="857.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxplswork.mpgcrtlr4">
+   <children>
+      <Button layoutX="21.0" layoutY="21.0" mnemonicParsing="false" onAction="#backtoadmin_home" prefHeight="41.0" prefWidth="40.0" style="-fx-background-color: #63E2C6;">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@back-button.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <DropShadow height="61.36" radius="30.6175" width="63.11">
+               <color>
+                  <Color red="0.16588693857192993" green="0.38947367668151855" blue="0.3410298824310303" />
+               </color>
+               <input>
+                  <InnerShadow />
+               </input>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Label alignment="CENTER" layoutX="271.0" layoutY="19.0" prefHeight="58.0" prefWidth="298.0" text="Delete Reviews" textFill="#999999">
+         <font>
+            <Font name="Microsoft JhengHei Light" size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="88.0" layoutY="96.0" prefHeight="35.0" prefWidth="101.0" text="Review" textFill="#f2f2f2">
+         <font>
+            <Font name="Berlin Sans FB" size="21.0" />
+         </font>
+      </Label>
+      <Line endX="-37.800018310546875" layoutX="207.0" layoutY="128.0" startX="-100.0" stroke="#848484" />
+      <Label alignment="CENTER" layoutX="620.0" layoutY="97.0" prefHeight="35.0" prefWidth="101.0" text="User" textFill="#f2f2f2">
+         <font>
+            <Font name="Berlin Sans FB" size="21.0" />
+         </font>
+      </Label>
+      <Line endX="-59.800048828125" layoutX="751.0" layoutY="128.0" startX="-100.0" stroke="#848484" />
+      <Line endX="-100.0" endY="417.79998779296875" layoutX="695.0" layoutY="114.0" startX="-100.0" stroke="#898989" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="857.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxplswork.mpgcontroller3">
+   <children>
+      <Button layoutX="178.0" layoutY="240.0" mnemonicParsing="false" onAction="#close" prefHeight="88.0" prefWidth="182.0" style="-fx-background-color: rgb(72, 243, 0);" text="Staff">
+         <font>
+            <Font name="Corbel Light Italic" size="42.0" />
+         </font>
+      </Button>
+      <Button layoutX="507.0" layoutY="240.0" mnemonicParsing="false" onAction="#gotomenu" prefHeight="88.0" prefWidth="205.0" style="-fx-background-color: rgb(72, 243, 0);" text="Customer">
+         <font>
+            <Font name="Corbel Light Italic" size="39.0" />
+         </font>
+      </Button>
+      <Line endX="0.79998779296875" endY="218.19998168945312" fill="#f2ff00" layoutX="427.0" layoutY="222.0" startX="0.79998779296875" startY="-67.01248931884766" stroke="WHITE" />
+      <Button layoutX="9.0" layoutY="11.0" mnemonicParsing="false" onAction="#back2location" prefHeight="31.0" prefWidth="30.0" style="-fx-background-color: #63E2C6;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@back-button.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <DropShadow height="33.58" radius="28.9375" width="84.17">
+               <color>
+                  <Color red="0.38823530077934265" green="0.886274516582489" blue="0.7764706015586853" />
+               </color>
+               <input>
+                  <InnerShadow height="67.78" radius="19.355" width="11.64">
+                     <color>
+                        <Color red="0.20000000298023224" green="0.18518517911434174" blue="0.18518517911434174" />
+                     </color>
+                  </InnerShadow>
+               </input>
+            </DropShadow>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="286.0" style="-fx-background-color: #2F2F2F;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxplswork.mpgcrtlr4">
+   <children>
+      <Button fx:id="btcl" layoutX="125.0" layoutY="60.0" mnemonicParsing="false" onAction="#create_staff_acc" prefHeight="26.0" prefWidth="37.0" style="-fx-background-color: rgb(100, 100, 100); -fx-text-fill: #550091;" text="OK" textFill="#2a0546">
+         <effect>
+            <DropShadow height="91.7" radius="46.39" width="95.86">
+               <color>
+                  <Color red="0.3550877273082733" blue="0.46315789222717285" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Button>
+   </children>
+   <effect>
+      <DropShadow height="27.73" radius="12.8525" width="25.68">
+         <color>
+            <Color red="0.2905263304710388" blue="0.378947377204895" />
+         </color></DropShadow>
+   </effect>
+</Pane>

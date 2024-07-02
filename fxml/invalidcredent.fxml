@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="errordialog" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="74.0" prefWidth="234.0" style="-fx-background-color: #2F2F2F;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxplswork.Mainpagecontroller">
+   <children>
+      <Label alignment="CENTER" layoutX="9.0" layoutY="7.0" prefHeight="26.0" prefWidth="224.0" text="Given Credentials are invalid..." textFill="#37ff00">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="btcl" layoutX="103.0" layoutY="37.0" mnemonicParsing="false" onAction="#close" prefHeight="26.0" prefWidth="37.0" style="-fx-background-color: rgb(100, 100, 100); -fx-text-fill: #37ff00;" text="OK" textFill="#0d0d0d">
+         <effect>
+            <DropShadow height="79.19" radius="43.2625" width="95.86">
+               <color>
+                  <Color red="0.3684210479259491" green="0.3684210479259491" blue="0.3684210479259491" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font></Button>
+   </children>
+   <effect>
+      <DropShadow radius="19.942500000000003" width="60.77" />
+   </effect>
+</Pane>

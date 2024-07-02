@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="857.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxplswork.Mainpagecontroller">
+   <children>
+      <ImageView fitHeight="58.0" fitWidth="73.0" layoutX="13.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@amritalogo.png" />
+         </image>
+      </ImageView>
+      <Text fill="#a6ff00" layoutX="360.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-fill: white;" text="Cuisine" wrappingWidth="200.49187900131642">
+         <font>
+            <Font name="Times New Roman" size="64.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="142.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-fill: white;" text="Canteen" wrappingWidth="218.9368896484375">
+         <font>
+            <Font name="Times New Roman" size="64.0" />
+         </font>
+         <effect>
+            <Glow level="0.45" />
+         </effect>
+      </Text>
+      <ImageView fitHeight="151.0" fitWidth="166.0" layoutX="3.0" layoutY="102.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" rotate="15.6">
+         <image>
+            <Image url="@food.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="45.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eat. Sleep. Repeat." wrappingWidth="115.3119719900053">
+         <font>
+            <Font name="Microsoft JhengHei Light" size="33.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="307.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Food" wrappingWidth="115.3119719900053">
+         <font>
+            <Font name="Georgia" size="50.0" />
+         </font>
+         <effect>
+            <Glow level="0.64" />
+         </effect>
+      </Text>
+      <Text fill="#a6ff00" layoutX="421.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Finder">
+         <font>
+            <Font name="Georgia" size="50.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="#e8c800" layoutX="218.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Ultimate Food Guide on Campus" textAlignment="CENTER" wrappingWidth="418.1369171142578">
+         <font>
+            <Font name="Californian FB" size="26.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+      <Pane layoutX="483.0" layoutY="82.0" prefHeight="55.0" prefWidth="305.0">
+         <children>
+            <Hyperlink alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" layoutY="14.0" onAction="#open_admin" style="-fx-border-color: none; -fx-text-fill: #a6ff00;" text="Admin">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow height="52.64" radius="31.3625" width="74.81">
+                     <color>
+                        <Color red="0.6509804129600525" green="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Hyperlink>
+            <Hyperlink alignment="CENTER" contentDisplay="CENTER" layoutX="87.0" layoutY="13.0" onAction="#close" style="-fx-border-color: none; -fx-text-fill: #a6ff00;" text="Staff">
+               <font>
+                  <Font name="Bookman Old Style" size="19.0" />
+               </font>
+               <effect>
+                  <DropShadow height="52.64" radius="31.3625" width="74.81">
+                     <color>
+                        <Color red="0.6509804129600525" green="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Hyperlink>
+            <Hyperlink alignment="CENTER" contentDisplay="CENTER" layoutX="153.0" layoutY="14.0" onAction="#aboutpage" prefHeight="19.0" prefWidth="59.0" style="-fx-border-color: none; -fx-text-fill: #a6ff00;" text="About">
+               <font>
+                  <Font name="Bookman Old Style" size="17.0" />
+               </font>
+               <effect>
+                  <DropShadow height="52.64" radius="31.3625" width="74.81">
+                     <color>
+                        <Color red="0.6509804129600525" green="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Hyperlink>
+            <Hyperlink alignment="CENTER" contentDisplay="CENTER" layoutX="222.0" layoutY="13.0" onAction="#contactpage" style="-fx-border-color: none; -fx-text-fill: #a6ff00;" text="Contact" textFill="#00a7f4">
+               <font>
+                  <Font name="Bookman Old Style" size="17.0" />
+               </font>
+               <effect>
+                  <DropShadow height="52.64" radius="31.3625" width="74.81">
+                     <color>
+                        <Color red="0.6509804129600525" green="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Hyperlink>
+         </children>
+      </Pane>
+      <ImageView fitHeight="174.0" fitWidth="189.0" layoutX="669.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true" rotate="-17.2">
+         <image>
+            <Image url="@pngegg.png" />
+         </image>
+      </ImageView>
+      <Hyperlink alignment="CENTER" contentDisplay="CENTER" layoutX="495.0" layoutY="422.0" onAction="#canteenpage" prefHeight="94.0" prefWidth="182.0" style="-fx-border-color: none; -fx-text-fill: #a6ff00;" text="Let's Go -&gt;">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="35.0" />
+         </font>
+         <effect>
+            <Glow level="0.54" />
+         </effect>
+      </Hyperlink>
+      <Line endX="-40.445953369140625" endY="132.4000244140625" layoutX="72.0" layoutY="397.0" startX="-40.445953369140625" startY="8.4000244140625" stroke="#a6ff00" />
+      <Text fill="WHITE" layoutX="566.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-fill: white;" text="Hub" wrappingWidth="115.31197199000525">
+         <font>
+            <Font name="Times New Roman" size="64.0" />
+         </font>
+         <effect>
+            <Glow level="0.55" />
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>
