@@ -55,3 +55,6 @@ The "Canteen Cuisine App" addresses the challenges faced by students and faculty
 | Account Creation                      | ![Home](outputs/usercreaAcc.png) |
 | User Login      | ![Feedback and Ratings](outputs/userlogin.png) |
 | Menu         | ![Menu Exploration](outputs/menu.png) |
+
+## Project Context:
+Developed during my second semester for Java coursework.
