@@ -53,5 +53,5 @@ The "Canteen Cuisine App" addresses the challenges faced by students and faculty
 | Feature                   | Image |
 |---------------------------|-------|
 | Account Creation                      | ![Home](outputs/usercreaAcc.png) |
-| User Login      | ![Feedback and Ratings](outputs/adminlogin.png) |
+| User Login      | ![Feedback and Ratings](outputs/userlogin.png) |
 | Menu         | ![Menu Exploration](outputs/menu.png) |
