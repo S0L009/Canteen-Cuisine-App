@@ -1,4 +1,4 @@
-## Canteen Food Finder
+# Canteen Food Finder
 
 ### Overview:
 Assists those seeking food options in the canteen.
