@@ -58,3 +58,4 @@ The "Canteen Cuisine App" addresses the challenges faced by students and faculty
 
 ## Project Context:
 Developed during my second semester for Java coursework.
+
